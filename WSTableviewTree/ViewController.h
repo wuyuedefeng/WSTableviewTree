@@ -1,15 +1,16 @@
 //
 //  ViewController.h
-//  WSTableviewTree
+//  WSTableView
 //
-//  Created by senwang on 15/4/22.
-//  Copyright (c) 2015年 senwang. All rights reserved.
+//  Created by Sakkaras on 26/12/13.
+//  Copyright (c) 2013 Sakkaras. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
+#import "WSTableView.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <WSTableViewDelegate>
 
+@property (nonatomic, weak) IBOutlet WSTableView *tableView;
 
 @end
-
