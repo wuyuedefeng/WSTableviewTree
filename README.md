@@ -1,6 +1,6 @@
 # WSTableviewTree
 ##运行demo
-![运行demo](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/demo.png)
+![运行demo](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/demo1.png)
 
 ***
 
@@ -17,9 +17,9 @@
 
 ##使用方法
 创建tableview数据源最好使用提供的WSTableviewDataModel（该model定义了一级标签所显示的字符串，和存放二级标签对象的数组，可以任意继承该类进行任意拓展）
-
-_dataSourceArrM = [NSMutableArray array];
-WSTableviewDataModel *dataModel = [[WSTableviewDataModel alloc] init];
+    ```objective-c
+   _dataSourceArrM = [NSMutableArray array];
+   WSTableviewDataModel *dataModel = [[WSTableviewDataModel alloc] init];
     dataModel.firstLevelStr = @"医院选择";
     dataModel.shouldExpandSubRows = NO; //默认收缩数据（不设置默认为NO）
     [dataModel object_add_toSecondLevelArrM:@"医院1"];
@@ -44,6 +44,7 @@ WSTableviewDataModel *dataModel = [[WSTableviewDataModel alloc] init];
     WSTableviewDataModel *dataModel4 = [[WSTableviewDataModel alloc] init];
     dataModel4.firstLevelStr = @"部位选择3";
     [_dataSourceArrM addObject:dataModel4];
+    ```
     
     ###更多拓展tableview方法请查看WSTableView头文件
     
