@@ -15,13 +15,21 @@
 {
     if (self = [super init]) {
         self.secondLevelArrM = [NSMutableArray array];
+        self.shouldExpandSubRows = NO;
+        self.expandable = NO;
     }
     return self;
 }
-- (void)addObject_to_secondLevelArrM:(id)obj
+- (void)object_add_toSecondLevelArrM:(id)obj
 {
     NSMutableDictionary *dicM = [[NSMutableDictionary alloc] initWithObjectsAndKeys:obj,kWSTableViewSecondLevelObj,@0,kWSTableViewScondLevelObjIsChecked, nil];
     [self.secondLevelArrM addObject:dicM];
+    self.expandable = YES;
+    
+}
+- (id)object_get_fromSecondLevelArrMWithIndex:(NSInteger)index
+{
+    return [self.secondLevelArrM[index] objectForKey:kWSTableViewSecondLevelObj];
 }
 - (void)set_Checked_OfSecondLevelDicObject:(NSMutableDictionary *)dicM
 {

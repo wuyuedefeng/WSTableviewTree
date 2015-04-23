@@ -184,6 +184,9 @@ CGFloat const kDefaultCellHeight = 44.0f;
     }
     else
     {
+        correspondingIndexPath = [NSIndexPath indexPathForSubRow:correspondingIndexPath.subRow-1
+                                                           inRow:correspondingIndexPath.row
+                                                       inSection:correspondingIndexPath.section];
         UITableViewCell *cell = [_WSTableViewDelegate tableView:(WSTableView *)tableView cellForSubRowAtIndexPath:correspondingIndexPath];
         cell.backgroundColor = [self separatorColor];
         cell.backgroundView = nil;
@@ -332,6 +335,9 @@ CGFloat const kDefaultCellHeight = 44.0f;
             }
             else
             {
+                correspondingIndexPath = [NSIndexPath indexPathForSubRow:correspondingIndexPath.subRow-1
+                                                                   inRow:correspondingIndexPath.row
+                                                               inSection:correspondingIndexPath.section];
                 [_WSTableViewDelegate tableView:self didSelectSubRowAtIndexPath:correspondingIndexPath];
             }
         }
@@ -341,7 +347,9 @@ CGFloat const kDefaultCellHeight = 44.0f;
         if ([_WSTableViewDelegate respondsToSelector:@selector(tableView:didSelectSubRowAtIndexPath:)])
         {
             NSIndexPath *correspondingIndexPath = [self correspondingIndexPathForRowAtIndexPath:indexPath];
-            
+            correspondingIndexPath = [NSIndexPath indexPathForSubRow:correspondingIndexPath.subRow-1
+                                                               inRow:correspondingIndexPath.row
+                                                           inSection:correspondingIndexPath.section];
             [_WSTableViewDelegate tableView:self didSelectSubRowAtIndexPath:correspondingIndexPath];
         }
     }
@@ -732,6 +740,7 @@ static void *SubRowObjectKey;
 {
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:row inSection:section];
     indexPath.subRow = subrow;
+
     
     return indexPath;
 }

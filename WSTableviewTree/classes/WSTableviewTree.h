@@ -14,6 +14,6 @@
 #import "WSTableViewCellIndicator.h"
 #import "WSTableviewDataModel.h"
 
-#define kWSTableViewSecondLevelObj "secondLevelObj"
+#define kWSTableViewSecondLevelObj @"secondLevelObj"
 
 #endif

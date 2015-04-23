@@ -13,4 +13,10 @@
 @property (nonatomic,copy)NSString *firstLevelStr;
 @property (nonatomic,strong)NSMutableArray *secondLevelArrM;
 
+@property (nonatomic, assign)BOOL shouldExpandSubRows;
+
+@property (nonatomic, assign)BOOL expandable;
+
+- (void)object_add_toSecondLevelArrM:(id)obj;
+- (id)object_get_fromSecondLevelArrMWithIndex:(NSInteger)index;
 @end
