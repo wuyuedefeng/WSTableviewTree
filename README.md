@@ -1,6 +1,6 @@
 # WSTableviewTree
 ##运行demo
-![运行demo](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/demo1.png)
+![运行demo](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/demo.png)
 
 ***
 
