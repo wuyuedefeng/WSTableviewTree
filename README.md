@@ -16,10 +16,12 @@
 ****
 
 ##使用方法
-创建tableview数据源最好使用提供的WSTableviewDataModel（该model定义了一级标签所显示的字符串，和存放二级标签对象的数组，可以任意继承该类进行任意拓展）
+######创建tableview数据源最好使用提供的WSTableviewDataModel（该model定义了一级标签所显示的字符串，和存放二级标签对象的数组，可以任意继承该类进行任意拓展）
+    
+
     ```objective-c
-   _dataSourceArrM = [NSMutableArray array];
-   WSTableviewDataModel *dataModel = [[WSTableviewDataModel alloc] init];
+    _dataSourceArrM = [NSMutableArray array];
+    WSTableviewDataModel *dataModel = [[WSTableviewDataModel alloc] init];
     dataModel.firstLevelStr = @"医院选择";
     dataModel.shouldExpandSubRows = NO; //默认收缩数据（不设置默认为NO）
     [dataModel object_add_toSecondLevelArrM:@"医院1"];
