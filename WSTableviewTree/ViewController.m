@@ -101,7 +101,6 @@
     [dataModel3 object_add_toSecondLevelArrM:@"头2"];
     [dataModel3 object_add_toSecondLevelArrM:@"手2"];
     dataModel3.expandable = NO;
-//    dataModel3.shouldExpandSubRows = NO;
     [_dataSourceArrM addObject:dataModel3];
     
     WSTableviewDataModel *dataModel4 = [[WSTableviewDataModel alloc] init];

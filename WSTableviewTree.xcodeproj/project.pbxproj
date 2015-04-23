@@ -19,7 +19,7 @@
 		3629A7C71AE7E8F700254FDB /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7C31AE7E8F700254FDB /* WSTableViewCell.m */; };
 		3629A7C81AE7E8F700254FDB /* WSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7C51AE7E8F700254FDB /* WSTableViewCellIndicator.m */; };
 		3629A7CB1AE7EAFC00254FDB /* WSTableviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7CA1AE7EAFC00254FDB /* WSTableviewDataModel.m */; };
-		4B1AE6751AE895A9005BDC39 /* demo.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1AE6741AE895A9005BDC39 /* demo.png */; };
+		4B1AE6771AE89996005BDC39 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1AE6761AE89996005BDC39 /* demo1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,7 +56,7 @@
 		3629A7C91AE7EAFB00254FDB /* WSTableviewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewDataModel.h; sourceTree = "<group>"; };
 		3629A7CA1AE7EAFC00254FDB /* WSTableviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableviewDataModel.m; sourceTree = "<group>"; };
 		3629A7CC1AE7EEFC00254FDB /* WSTableviewTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTableviewTree.h; sourceTree = "<group>"; };
-		4B1AE6741AE895A9005BDC39 /* demo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo.png; sourceTree = "<group>"; };
+		4B1AE6761AE89996005BDC39 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				3629A7921AE7E8A300254FDB /* Main.storyboard */,
 				3629A7951AE7E8A300254FDB /* Images.xcassets */,
 				3629A7971AE7E8A300254FDB /* LaunchScreen.xib */,
-				4B1AE6741AE895A9005BDC39 /* demo.png */,
+				4B1AE6761AE89996005BDC39 /* demo1.png */,
 				3629A7881AE7E8A300254FDB /* Supporting Files */,
 			);
 			path = WSTableviewTree;
@@ -235,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B1AE6771AE89996005BDC39 /* demo1.png in Resources */,
 				3629A7941AE7E8A300254FDB /* Main.storyboard in Resources */,
 				3629A7991AE7E8A300254FDB /* LaunchScreen.xib in Resources */,
-				4B1AE6751AE895A9005BDC39 /* demo.png in Resources */,
 				3629A7BB1AE7E8D200254FDB /* ViewController.xib in Resources */,
 				3629A7961AE7E8A300254FDB /* Images.xcassets in Resources */,
 			);
