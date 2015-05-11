@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-
 /** 
  *  WSTableView is a custom table view class extended from UITableView class. This class provides a single-level hierarchical
  *  structure for your contents. In order to minimalize the effectiveness of the table view, the default insertion and remove 
@@ -104,7 +103,6 @@
 - (BOOL)tableView:(WSTableView *)tableView shouldExpandSubRowsOfCellAtIndexPath:(NSIndexPath *)indexPath;
 
 @end
-
 
 @interface WSTableView : UITableView
 

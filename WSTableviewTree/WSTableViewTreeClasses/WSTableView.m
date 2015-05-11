@@ -151,7 +151,6 @@ CGFloat const kDefaultCellHeight = 44.0f;
         }
         
         BOOL isExpanded = [self.expandableCells[@(correspondingIndexPath.section)][correspondingIndexPath.row][kIsExpandedKey] boolValue];
-        
         if (expandableCell.isExpandable)
         {
             expandableCell.expanded = isExpanded;
@@ -419,6 +418,10 @@ CGFloat const kDefaultCellHeight = 44.0f;
     {
         if ([_WSTableViewDelegate respondsToSelector:@selector(tableView:heightForSubRowAtIndexPath:)])
         {
+            NSIndexPath *correspondingIndexPath = [self correspondingIndexPathForRowAtIndexPath:indexPath];
+            correspondingIndexPath = [NSIndexPath indexPathForSubRow:correspondingIndexPath.subRow-1
+                                                               inRow:correspondingIndexPath.row
+                                                           inSection:correspondingIndexPath.section];
             return [_WSTableViewDelegate tableView:self heightForSubRowAtIndexPath:correspondingIndexPath];
         }
         

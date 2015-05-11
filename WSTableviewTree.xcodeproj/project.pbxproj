@@ -15,11 +15,11 @@
 		3629A7B91AE7E8D200254FDB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7AF1AE7E8D200254FDB /* AppDelegate.m */; };
 		3629A7BA1AE7E8D200254FDB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7B11AE7E8D200254FDB /* ViewController.m */; };
 		3629A7BB1AE7E8D200254FDB /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3629A7B21AE7E8D200254FDB /* ViewController.xib */; };
-		3629A7C61AE7E8F700254FDB /* WSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7C11AE7E8F700254FDB /* WSTableView.m */; };
-		3629A7C71AE7E8F700254FDB /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7C31AE7E8F700254FDB /* WSTableViewCell.m */; };
-		3629A7C81AE7E8F700254FDB /* WSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7C51AE7E8F700254FDB /* WSTableViewCellIndicator.m */; };
-		3629A7CB1AE7EAFC00254FDB /* WSTableviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3629A7CA1AE7EAFC00254FDB /* WSTableviewDataModel.m */; };
 		4B1AE67D1AE89DFB005BDC39 /* demo1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4B1AE67C1AE89DFB005BDC39 /* demo1.png */; };
+		4B89119D1B005B4F00B2C2CC /* WSTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8911951B005B4F00B2C2CC /* WSTableView.m */; };
+		4B89119E1B005B4F00B2C2CC /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8911971B005B4F00B2C2CC /* WSTableViewCell.m */; };
+		4B89119F1B005B4F00B2C2CC /* WSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8911991B005B4F00B2C2CC /* WSTableViewCellIndicator.m */; };
+		4B8911A01B005B4F00B2C2CC /* WSTableviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B89119B1B005B4F00B2C2CC /* WSTableviewDataModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,16 +47,16 @@
 		3629A7B01AE7E8D200254FDB /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		3629A7B11AE7E8D200254FDB /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		3629A7B21AE7E8D200254FDB /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
-		3629A7C01AE7E8F700254FDB /* WSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableView.h; sourceTree = "<group>"; };
-		3629A7C11AE7E8F700254FDB /* WSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableView.m; sourceTree = "<group>"; };
-		3629A7C21AE7E8F700254FDB /* WSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCell.h; sourceTree = "<group>"; };
-		3629A7C31AE7E8F700254FDB /* WSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCell.m; sourceTree = "<group>"; };
-		3629A7C41AE7E8F700254FDB /* WSTableViewCellIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCellIndicator.h; sourceTree = "<group>"; };
-		3629A7C51AE7E8F700254FDB /* WSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCellIndicator.m; sourceTree = "<group>"; };
-		3629A7C91AE7EAFB00254FDB /* WSTableviewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewDataModel.h; sourceTree = "<group>"; };
-		3629A7CA1AE7EAFC00254FDB /* WSTableviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableviewDataModel.m; sourceTree = "<group>"; };
-		3629A7CC1AE7EEFC00254FDB /* WSTableviewTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSTableviewTree.h; sourceTree = "<group>"; };
 		4B1AE67C1AE89DFB005BDC39 /* demo1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = demo1.png; sourceTree = "<group>"; };
+		4B8911941B005B4F00B2C2CC /* WSTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableView.h; sourceTree = "<group>"; };
+		4B8911951B005B4F00B2C2CC /* WSTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableView.m; sourceTree = "<group>"; };
+		4B8911961B005B4F00B2C2CC /* WSTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCell.h; sourceTree = "<group>"; };
+		4B8911971B005B4F00B2C2CC /* WSTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCell.m; sourceTree = "<group>"; };
+		4B8911981B005B4F00B2C2CC /* WSTableViewCellIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableViewCellIndicator.h; sourceTree = "<group>"; };
+		4B8911991B005B4F00B2C2CC /* WSTableViewCellIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableViewCellIndicator.m; sourceTree = "<group>"; };
+		4B89119A1B005B4F00B2C2CC /* WSTableviewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewDataModel.h; sourceTree = "<group>"; };
+		4B89119B1B005B4F00B2C2CC /* WSTableviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableviewDataModel.m; sourceTree = "<group>"; };
+		4B89119C1B005B4F00B2C2CC /* WSTableviewTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewTree.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,7 @@
 		3629A7871AE7E8A300254FDB /* WSTableviewTree */ = {
 			isa = PBXGroup;
 			children = (
-				3629A7BF1AE7E8F700254FDB /* classes */,
+				4B8911931B005B4800B2C2CC /* WSTableViewTreeClasses */,
 				3629A7AE1AE7E8D200254FDB /* AppDelegate.h */,
 				3629A7AF1AE7E8D200254FDB /* AppDelegate.m */,
 				3629A7B01AE7E8D200254FDB /* ViewController.h */,
@@ -139,20 +139,20 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		3629A7BF1AE7E8F700254FDB /* classes */ = {
+		4B8911931B005B4800B2C2CC /* WSTableViewTreeClasses */ = {
 			isa = PBXGroup;
 			children = (
-				3629A7C01AE7E8F700254FDB /* WSTableView.h */,
-				3629A7C11AE7E8F700254FDB /* WSTableView.m */,
-				3629A7C21AE7E8F700254FDB /* WSTableViewCell.h */,
-				3629A7C31AE7E8F700254FDB /* WSTableViewCell.m */,
-				3629A7C41AE7E8F700254FDB /* WSTableViewCellIndicator.h */,
-				3629A7C51AE7E8F700254FDB /* WSTableViewCellIndicator.m */,
-				3629A7C91AE7EAFB00254FDB /* WSTableviewDataModel.h */,
-				3629A7CA1AE7EAFC00254FDB /* WSTableviewDataModel.m */,
-				3629A7CC1AE7EEFC00254FDB /* WSTableviewTree.h */,
+				4B8911941B005B4F00B2C2CC /* WSTableView.h */,
+				4B8911951B005B4F00B2C2CC /* WSTableView.m */,
+				4B8911961B005B4F00B2C2CC /* WSTableViewCell.h */,
+				4B8911971B005B4F00B2C2CC /* WSTableViewCell.m */,
+				4B8911981B005B4F00B2C2CC /* WSTableViewCellIndicator.h */,
+				4B8911991B005B4F00B2C2CC /* WSTableViewCellIndicator.m */,
+				4B89119A1B005B4F00B2C2CC /* WSTableviewDataModel.h */,
+				4B89119B1B005B4F00B2C2CC /* WSTableviewDataModel.m */,
+				4B89119C1B005B4F00B2C2CC /* WSTableviewTree.h */,
 			);
-			path = classes;
+			path = WSTableViewTreeClasses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,12 +258,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3629A7BA1AE7E8D200254FDB /* ViewController.m in Sources */,
-				3629A7C81AE7E8F700254FDB /* WSTableViewCellIndicator.m in Sources */,
-				3629A7C61AE7E8F700254FDB /* WSTableView.m in Sources */,
+				4B89119F1B005B4F00B2C2CC /* WSTableViewCellIndicator.m in Sources */,
+				4B89119D1B005B4F00B2C2CC /* WSTableView.m in Sources */,
 				3629A7B91AE7E8D200254FDB /* AppDelegate.m in Sources */,
 				3629A78B1AE7E8A300254FDB /* main.m in Sources */,
-				3629A7CB1AE7EAFC00254FDB /* WSTableviewDataModel.m in Sources */,
-				3629A7C71AE7E8F700254FDB /* WSTableViewCell.m in Sources */,
+				4B8911A01B005B4F00B2C2CC /* WSTableviewDataModel.m in Sources */,
+				4B89119E1B005B4F00B2C2CC /* WSTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

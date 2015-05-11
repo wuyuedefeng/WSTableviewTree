@@ -21,7 +21,7 @@
 {
     self = [super initWithStyle:style reuseIdentifier:reuseIdentifier];
     if (self) {
-        self.expandable = YES;
+        self.expandable = NO;
         self.expanded = NO;
     }
     return self;

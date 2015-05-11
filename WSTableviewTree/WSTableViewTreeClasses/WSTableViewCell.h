@@ -7,13 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
 /**
  *  WSTableViewCell is a custom table view cell class extended from UITableViewCell class. This class is used to represent the
  *  expandable rows of the WSTableView object.
  */
 
-@interface WSTableViewCell : UITableViewCell
+@interface WSTableViewCell :UITableViewCell
 
 /**
  * The boolean value showing the receiver is expandable or not. The default value of this property is NO.

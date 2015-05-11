@@ -19,4 +19,7 @@
 
 - (void)object_add_toSecondLevelArrM:(id)obj;
 - (id)object_get_fromSecondLevelArrMWithIndex:(NSInteger)index;
+
+- (void)setCheckedSecondLevel:(BOOL)checked withSubRow:(NSInteger)subRow;
+- (BOOL)isCheckedSubRow:(NSInteger)subRow;
 @end
