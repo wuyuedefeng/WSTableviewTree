@@ -429,21 +429,26 @@ CGFloat const kDefaultCellHeight = 44.0f;
     }
 }
 //
-//- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
-//{
-//    if ([_WSTableViewDelegate respondsToSelector:@selector(tableView:heightForHeaderInSection:)])
-//        [_WSTableViewDelegate tableView:tableView heightForHeaderInSection:section];
-//    
-//    return 0;
-//}
-//
-//- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
-//{
-//    if ([_WSTableViewDelegate respondsToSelector:@selector(tableView:heightForFooterInSection:)])
-//        [_WSTableViewDelegate tableView:tableView heightForFooterInSection:section];
-//    
-//    return 0;
-//}
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section
+{
+    if ([_WSTableViewDelegate respondsToSelector:@selector(tableView:heightForHeaderInSection:)])
+    {
+       return [_WSTableViewDelegate tableView:tableView heightForHeaderInSection:section];
+
+    }
+    
+    return 0.1f;
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForFooterInSection:(NSInteger)section
+{
+    if ([_WSTableViewDelegate respondsToSelector:@selector(tableView:heightForFooterInSection:)]){
+       return  [_WSTableViewDelegate tableView:tableView heightForFooterInSection:section];
+    }
+    
+    
+    return 0.1f;
+}
 //
 //- (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath
 //{

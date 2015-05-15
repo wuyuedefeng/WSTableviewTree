@@ -33,8 +33,8 @@
     
     if (self.isExpanded) {
         
-        if (![self containsIndicatorView])
-            [self addIndicatorView];
+        if (![self containsIndicatorView]);
+            //[self addIndicatorView];
         else {
             [self removeIndicatorView];
             [self addIndicatorView];
@@ -46,7 +46,7 @@ static UIImage *_image = nil;
 - (UIView *)expandableView
 {
     if (!_image) {
-        _image = [UIImage imageNamed:@"expandableImage.png"];
+        _image = [UIImage imageNamed:@"expandableImage"];
     }
     
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
