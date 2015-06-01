@@ -19,8 +19,8 @@
 		4B5F695C1B05F952008A99BD /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F69551B05F952008A99BD /* WSTableViewCell.m */; };
 		4B5F695D1B05F952008A99BD /* WSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F69571B05F952008A99BD /* WSTableViewCellIndicator.m */; };
 		4B5F695E1B05F952008A99BD /* WSTableviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F69591B05F952008A99BD /* WSTableviewDataModel.m */; };
-		4B86C76E1B1C5C90003D0BB9 /* cando1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B86C76C1B1C5C90003D0BB9 /* cando1.gif */; };
-		4B86C76F1B1C5C90003D0BB9 /* demo1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B86C76D1B1C5C90003D0BB9 /* demo1.gif */; };
+		4B86C7711B1C5E5E003D0BB9 /* can.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B86C7701B1C5E5E003D0BB9 /* can.gif */; };
+		4B86C7731B1C5ECF003D0BB9 /* demohere.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B86C7721B1C5ECF003D0BB9 /* demohere.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +57,8 @@
 		4B5F69581B05F952008A99BD /* WSTableviewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewDataModel.h; sourceTree = "<group>"; };
 		4B5F69591B05F952008A99BD /* WSTableviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableviewDataModel.m; sourceTree = "<group>"; };
 		4B5F695A1B05F952008A99BD /* WSTableviewTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewTree.h; sourceTree = "<group>"; };
-		4B86C76C1B1C5C90003D0BB9 /* cando1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cando1.gif; sourceTree = "<group>"; };
-		4B86C76D1B1C5C90003D0BB9 /* demo1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo1.gif; sourceTree = "<group>"; };
+		4B86C7701B1C5E5E003D0BB9 /* can.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = can.gif; sourceTree = "<group>"; };
+		4B86C7721B1C5ECF003D0BB9 /* demohere.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demohere.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,8 +109,8 @@
 				3629A7921AE7E8A300254FDB /* Main.storyboard */,
 				3629A7951AE7E8A300254FDB /* Images.xcassets */,
 				3629A7971AE7E8A300254FDB /* LaunchScreen.xib */,
-				4B86C76C1B1C5C90003D0BB9 /* cando1.gif */,
-				4B86C76D1B1C5C90003D0BB9 /* demo1.gif */,
+				4B86C7721B1C5ECF003D0BB9 /* demohere.gif */,
+				4B86C7701B1C5E5E003D0BB9 /* can.gif */,
 				3629A7881AE7E8A300254FDB /* Supporting Files */,
 			);
 			path = WSTableviewTree;
@@ -239,10 +239,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3629A7941AE7E8A300254FDB /* Main.storyboard in Resources */,
-				4B86C76F1B1C5C90003D0BB9 /* demo1.gif in Resources */,
+				4B86C7731B1C5ECF003D0BB9 /* demohere.gif in Resources */,
 				3629A7991AE7E8A300254FDB /* LaunchScreen.xib in Resources */,
 				3629A7BB1AE7E8D200254FDB /* ViewController.xib in Resources */,
-				4B86C76E1B1C5C90003D0BB9 /* cando1.gif in Resources */,
+				4B86C7711B1C5E5E003D0BB9 /* can.gif in Resources */,
 				3629A7961AE7E8A300254FDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

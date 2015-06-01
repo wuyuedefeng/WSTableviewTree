@@ -1,6 +1,6 @@
 # WSTableviewTree
 ##运行demo
-![运行demo](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/demo1.gif)
+![运行demo](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/demohere.gif)
 
 ***
 
@@ -20,7 +20,7 @@
 
 ###用途简介
 ##比如
-![写过的样式](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/cando1.gif)
+![写过的样式](https://github.com/wuyuedefeng/WSTableviewTree/blob/master/WSTableviewTree/can.gif)
 
 ##使用方法
 ######创建tableview数据源最好使用提供的WSTableviewDataModel（该model定义了一级标签所显示的字符串，和存放二级标签对象的数组，可以任意继承该类进行任意拓展）
