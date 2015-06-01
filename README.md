@@ -15,6 +15,9 @@
 
 ****
 
+###注意
+###### tableview的cell必须继承WSTableViewCell, subCell不能继承WSTableViewCell,WSTableViewCell中的expandable属性用于区别，cell属于一级cell还是二级cell！！
+
 ##使用方法
 ######创建tableview数据源最好使用提供的WSTableviewDataModel（该model定义了一级标签所显示的字符串，和存放二级标签对象的数组，可以任意继承该类进行任意拓展）
     
