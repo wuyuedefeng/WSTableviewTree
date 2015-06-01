@@ -20,6 +20,7 @@
 		4B5F695C1B05F952008A99BD /* WSTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F69551B05F952008A99BD /* WSTableViewCell.m */; };
 		4B5F695D1B05F952008A99BD /* WSTableViewCellIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F69571B05F952008A99BD /* WSTableViewCellIndicator.m */; };
 		4B5F695E1B05F952008A99BD /* WSTableviewDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B5F69591B05F952008A99BD /* WSTableviewDataModel.m */; };
+		4B86C7651B1C53F0003D0BB9 /* cando.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4B86C7641B1C53F0003D0BB9 /* cando.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		4B5F69581B05F952008A99BD /* WSTableviewDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewDataModel.h; sourceTree = "<group>"; };
 		4B5F69591B05F952008A99BD /* WSTableviewDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTableviewDataModel.m; sourceTree = "<group>"; };
 		4B5F695A1B05F952008A99BD /* WSTableviewTree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTableviewTree.h; sourceTree = "<group>"; };
+		4B86C7641B1C53F0003D0BB9 /* cando.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cando.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				3629A7921AE7E8A300254FDB /* Main.storyboard */,
 				3629A7951AE7E8A300254FDB /* Images.xcassets */,
 				3629A7971AE7E8A300254FDB /* LaunchScreen.xib */,
+				4B86C7641B1C53F0003D0BB9 /* cando.gif */,
 				4B1AE67C1AE89DFB005BDC39 /* demo1.png */,
 				3629A7881AE7E8A300254FDB /* Supporting Files */,
 			);
@@ -239,6 +242,7 @@
 				3629A7991AE7E8A300254FDB /* LaunchScreen.xib in Resources */,
 				3629A7BB1AE7E8D200254FDB /* ViewController.xib in Resources */,
 				4B1AE67D1AE89DFB005BDC39 /* demo1.png in Resources */,
+				4B86C7651B1C53F0003D0BB9 /* cando.gif in Resources */,
 				3629A7961AE7E8A300254FDB /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
